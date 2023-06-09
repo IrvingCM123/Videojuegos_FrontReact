@@ -49,6 +49,26 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              <Link to="/imageniaedit" className="no-underline black" >
+                chat
+              </Link>
+            </li>
+            <li>
+              <Link to="/emojis" className="no-underline black" >
+                emojis
+              </Link>
+            </li>
+            <li>
+              <Link to="/traductor" className="no-underline black" >
+                traductor
+              </Link>
+            </li>
+            <li>
+              <Link to="/listaa" className="no-underline black" >
+                lista
+              </Link>
+            </li>
+            <li>
               <Link to="/search" className="ml1 no-underline black">
                 {t("search")}
               </Link>

@@ -3,7 +3,7 @@ import { Configuration, OpenAIApi } from "openai";
 class Serviceimg {
   async getimg(data) {
     const configuration = new Configuration({
-      apiKey: "",
+      apiKey: "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",
     });
     const openai = new OpenAIApi(configuration);
     if (!configuration.apiKey) {
